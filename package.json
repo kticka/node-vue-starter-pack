@@ -1,0 +1,29 @@
+{
+  "name": "nvue",
+  "version": "1.0.0",
+  "description": "Nodejs + Vue + Vuex + Axio starter pack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karolis Tička",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "gulp-rename": "^1.4.0"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "nodemon": "^1.18.6",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "vuex": "^3.0.1",
+    "webpack": "^4.26.0",
+    "webpack-stream": "^5.1.1"
+  }
+}
