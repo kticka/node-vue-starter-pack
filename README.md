@@ -15,7 +15,7 @@ http://localhost:3001 (change localhost to your dev machine ip address or host)
 
 It includes:
 
-```$xslt
+```
 express - serving static/dynamic content
 ejs - template engine 
 vue - reactive javascript framework 
