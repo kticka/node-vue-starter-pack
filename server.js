@@ -18,7 +18,7 @@ http.listen(server_config.port, function () {
 
   app.get('/test', (req, res) => {
     const obj = {
-      text: 'Hello world!!!'
+      text: 'Hello world!'
     };
     res.status(200).send(obj);
   });
