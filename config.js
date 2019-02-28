@@ -1,12 +1,12 @@
 const {VueLoaderPlugin} = require('vue-loader');
 
 const server_config = {
-  port: 3000
+  port: 80
 };
 
 const browsersync_config = {
   open:  false,
-  port:  3001,
+  port:  3000,
   proxy: 'localhost:' + server_config.port
 };
 

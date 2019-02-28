@@ -1,8 +1,8 @@
-const express         = require('express')
-const app             = express();
-const http            = require('http').Server(app);
-const path            = require('path');
-const {server_config} = require('./config');
+const express       = require('express')
+const app           = express();
+const http          = require('http').Server(app);
+const path          = require('path');
+const server_config = require('./config').server_config;
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './app/views'));
